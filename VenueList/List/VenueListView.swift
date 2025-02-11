@@ -17,17 +17,9 @@ struct VenueListView: View {
                 locationView()
             } else {
                 listView()
-            }
-            
-            if viewModel.isLoading {
-                ProgressView()
-                    .progressViewStyle(CircularProgressViewStyle())
-                    .scaleEffect(2) // Makes the spinner larger if desired
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .background(Color.white.opacity(0.7)) // Optional: adds a semi-transparent background
+                    .navigationTitle(viewModel.strScreenTitle)
             }
         }
-        .navigationTitle(viewModel.strScreenTitle)
         .onAppear {
             locationManager.requestLocation()
         }
@@ -67,11 +59,18 @@ struct VenueListView: View {
     
     private func listView() -> some View {
         VStack {
-            List(viewModel.venues, id: \.code) { venue in
-                NavigationLink {
-                    VenueDetailView(venue: venue)
-                } label: {
-                    venueLink(venue)
+            if viewModel.isLoading {
+                ProgressView()
+                    .progressViewStyle(CircularProgressViewStyle())
+                    .scaleEffect(2)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+            } else {
+                List(viewModel.venues, id: \.code) { venue in
+                    NavigationLink {
+                        VenueDetailView(venue: venue)
+                    } label: {
+                        venueLink(venue)
+                    }
                 }
             }
         }
