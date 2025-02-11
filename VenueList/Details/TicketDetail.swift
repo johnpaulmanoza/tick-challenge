@@ -12,6 +12,7 @@ struct TicketDetail: Codable {
     let action: String
     let result: String
     let concession: Int
+    var grantEntry: Bool = false
 
     enum CodingKeys: String, CodingKey {
         case status, action, result, concession
@@ -24,5 +25,6 @@ struct TicketDetail: Codable {
         self.action = try container.decodeIfPresent(String.self, forKey: .action) ?? ""
         self.result = try container.decodeIfPresent(String.self, forKey: .result) ?? ""
         self.concession = try container.decodeIfPresent(Int.self, forKey: .concession) ?? 0
+        self.grantEntry = action == "ENTRY" && result == "SUCCESS"
     }
 }
