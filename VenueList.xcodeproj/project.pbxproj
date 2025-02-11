@@ -11,6 +11,11 @@
 		18DACC2D2D5B18F6001A2435 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DACC2C2D5B18F6001A2435 /* ContentView.swift */; };
 		18DACC2F2D5B18F8001A2435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DACC2E2D5B18F8001A2435 /* Assets.xcassets */; };
 		18DACC332D5B18F8001A2435 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DACC322D5B18F8001A2435 /* Preview Assets.xcassets */; };
+		18DACC3C2D5B1ACE001A2435 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DACC3B2D5B1ACE001A2435 /* Venue.swift */; };
+		18DACC3E2D5B1BED001A2435 /* VenueListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DACC3D2D5B1BED001A2435 /* VenueListViewModel.swift */; };
+		18DACC402D5B1C09001A2435 /* VenueListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DACC3F2D5B1C09001A2435 /* VenueListView.swift */; };
+		18DACC422D5B1DCD001A2435 /* VenueDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DACC412D5B1DCD001A2435 /* VenueDetailView.swift */; };
+		18DACC442D5B2113001A2435 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DACC432D5B2113001A2435 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		18DACC2E2D5B18F8001A2435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18DACC302D5B18F8001A2435 /* VenueList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VenueList.entitlements; sourceTree = "<group>"; };
 		18DACC322D5B18F8001A2435 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18DACC3B2D5B1ACE001A2435 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		18DACC3D2D5B1BED001A2435 /* VenueListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueListViewModel.swift; sourceTree = "<group>"; };
+		18DACC3F2D5B1C09001A2435 /* VenueListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueListView.swift; sourceTree = "<group>"; };
+		18DACC412D5B1DCD001A2435 /* VenueDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailView.swift; sourceTree = "<group>"; };
+		18DACC432D5B2113001A2435 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,8 @@
 		18DACC292D5B18F6001A2435 /* VenueList */ = {
 			isa = PBXGroup;
 			children = (
+				18DACC3A2D5B1A7B001A2435 /* Details */,
+				18DACC392D5B1A6D001A2435 /* List */,
 				18DACC2A2D5B18F6001A2435 /* VenueListApp.swift */,
 				18DACC2C2D5B18F6001A2435 /* ContentView.swift */,
 				18DACC2E2D5B18F8001A2435 /* Assets.xcassets */,
@@ -67,6 +79,25 @@
 				18DACC322D5B18F8001A2435 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18DACC392D5B1A6D001A2435 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				18DACC3B2D5B1ACE001A2435 /* Venue.swift */,
+				18DACC3D2D5B1BED001A2435 /* VenueListViewModel.swift */,
+				18DACC3F2D5B1C09001A2435 /* VenueListView.swift */,
+				18DACC432D5B2113001A2435 /* LocationManager.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		18DACC3A2D5B1A7B001A2435 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				18DACC412D5B1DCD001A2435 /* VenueDetailView.swift */,
+			);
+			path = Details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +171,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				18DACC2D2D5B18F6001A2435 /* ContentView.swift in Sources */,
+				18DACC3C2D5B1ACE001A2435 /* Venue.swift in Sources */,
+				18DACC3E2D5B1BED001A2435 /* VenueListViewModel.swift in Sources */,
+				18DACC442D5B2113001A2435 /* LocationManager.swift in Sources */,
+				18DACC422D5B1DCD001A2435 /* VenueDetailView.swift in Sources */,
+				18DACC402D5B1C09001A2435 /* VenueListView.swift in Sources */,
 				18DACC2B2D5B18F6001A2435 /* VenueListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +308,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"VenueList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -290,7 +328,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.test.VenueList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -308,6 +347,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"VenueList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -326,7 +367,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.test.VenueList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
