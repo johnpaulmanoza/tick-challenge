@@ -41,7 +41,10 @@ struct BarcodeScannerView: UIViewControllerRepresentable {
         previewLayer.videoGravity = .resizeAspectFill
         viewController.view.layer.addSublayer(previewLayer)
         
-        captureSession.startRunning()
+        DispatchQueue.global(qos: .background).async {
+            captureSession.startRunning()
+        }
+
         return viewController
     }
     
