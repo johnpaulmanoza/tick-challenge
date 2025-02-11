@@ -12,10 +12,21 @@
 
 Screenshots:
 
-https://drive.google.com/uc?export=view&id=1Me3xohdvxU7OkCuSgxXLpMEaHaN_92uH
+![Request Location](https://drive.google.com/uc?export=view&id=1Me3xohdvxU7OkCuSgxXLpMEaHaN_92uH)
 
-https://drive.google.com/uc?export=view&id=1qsouVgtr3wcFdh7aMEW6I_gLSc59UwXv
+![Location Permission](https://drive.google.com/uc?export=view&id=1qsouVgtr3wcFdh7aMEW6I_gLSc59UwXv)
 
-https://drive.google.com/uc?export=view&id=1cZ3WQreSshpQ0PCkvPSBhXovGaVEAcGD
+![Denied Loc Permission](https://drive.google.com/uc?export=view&id=1cZ3WQreSshpQ0PCkvPSBhXovGaVEAcGD)
 
-https://drive.google.com/uc?export=view&id=1GtjMlivjyj8aZJnbzEp15dqpSm61xGBd
+![Loading List of Venues](https://drive.google.com/uc?export=view&id=1GtjMlivjyj8aZJnbzEp15dqpSm61xGBd)
+
+![List of Venues](https://drive.google.com/uc?export=view&id=1fn541zu9oa-glhT8fp4cC0YjRYkwqMOO)
+
+![Camera Permission](https://drive.google.com/uc?export=view&id=1AjxRI4NlgrGcM2Z3-Z1-8asuvyEnYRbU)
+
+![Camera](https://drive.google.com/uc?export=view&id=1dJSBgGSgc9fYzCYQ0H8GTWcm7Auy6CUq)
+
+![Loading Ticket Scan API](https://drive.google.com/uc?export=view&id=1zLLHHOuqFjmO8n2M7Ve7-05rBnyrj3GP)
+
+![Success Ticket Scan](https://drive.google.com/uc?export=view&id=1LzzYb--hSR6uqWbfHFPc5rJ7zQWV4Op5)
+
