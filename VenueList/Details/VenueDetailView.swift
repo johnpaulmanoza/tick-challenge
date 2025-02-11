@@ -10,17 +10,33 @@ import SwiftUI
 struct VenueDetailView: View {
     var venue: Venue?
     
+    @State private var scannedBarcode: String? = nil
+        
     var body: some View {
-        VStack(alignment: .center) {
-//            AsyncImage(url: URL(string: user?.avatar ?? "")) { image in
-//                image.image?.resizable().aspectRatio(contentMode: .fill)
-//            }.frame(width: 150, height: 150)
-            
-            Text(venue?.name ?? "")
-                .foregroundStyle(.black)
-                .fontWeight(.bold)
-            Text(venue?.address ?? "")
-                .foregroundStyle(.black)
+        ZStack {
+            if let barcode = scannedBarcode {
+                ticketLoader(value: barcode)
+            } else {
+                BarcodeScannerView { barcode in
+                    scannedBarcode = barcode
+                }
+                .edgesIgnoringSafeArea(.all)
+            }
+        }
+    }
+    
+    private func ticketLoader(value: String) -> some View {
+        VStack(spacing: 20) {
+            ProgressView()
+                .progressViewStyle(CircularProgressViewStyle())
+                .scaleEffect(2)
+                .frame(maxWidth: .infinity, maxHeight: 40)
+            Text("Loading Ticket")
+                .font(.title)
+                .bold()
+            Text(value)
+                .font(.headline)
+                .foregroundColor(.gray)
         }
     }
 }
