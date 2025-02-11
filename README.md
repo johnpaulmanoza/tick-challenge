@@ -11,3 +11,11 @@
 * iOS Version 17.2+
 
 Screenshots:
+
+https://drive.google.com/uc?export=view&id=1Me3xohdvxU7OkCuSgxXLpMEaHaN_92uH
+
+https://drive.google.com/uc?export=view&id=1qsouVgtr3wcFdh7aMEW6I_gLSc59UwXv
+
+https://drive.google.com/uc?export=view&id=1cZ3WQreSshpQ0PCkvPSBhXovGaVEAcGD
+
+https://drive.google.com/uc?export=view&id=1GtjMlivjyj8aZJnbzEp15dqpSm61xGBd
