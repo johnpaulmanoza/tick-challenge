@@ -37,3 +37,9 @@ struct PaxLocation: Codable {
 struct Gate: Codable {
     let name: String
 }
+
+struct VenueCurrLocation: Identifiable, Equatable {
+    var id = UUID()
+    let lat: Double
+    let lng: Double
+}

@@ -16,7 +16,7 @@ class VenueListViewModel: ObservableObject {
     private var cancellables: Set<AnyCancellable> = []
     
     @MainActor
-    func loadData() {
+    func loadData(_ currentLocation: VenueCurrLocation) {
         guard !isLoading else {
             return
         }
