@@ -16,6 +16,8 @@
 		18DACC402D5B1C09001A2435 /* VenueListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DACC3F2D5B1C09001A2435 /* VenueListView.swift */; };
 		18DACC422D5B1DCD001A2435 /* VenueDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DACC412D5B1DCD001A2435 /* VenueDetailView.swift */; };
 		18DACC442D5B2113001A2435 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DACC432D5B2113001A2435 /* LocationManager.swift */; };
+		18DACC462D5B38EE001A2435 /* VenueDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DACC452D5B38EE001A2435 /* VenueDetailViewModel.swift */; };
+		18DACC482D5B3B0A001A2435 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DACC472D5B3B0A001A2435 /* BarcodeScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		18DACC3F2D5B1C09001A2435 /* VenueListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueListView.swift; sourceTree = "<group>"; };
 		18DACC412D5B1DCD001A2435 /* VenueDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailView.swift; sourceTree = "<group>"; };
 		18DACC432D5B2113001A2435 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		18DACC452D5B38EE001A2435 /* VenueDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailViewModel.swift; sourceTree = "<group>"; };
+		18DACC472D5B3B0A001A2435 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				18DACC412D5B1DCD001A2435 /* VenueDetailView.swift */,
+				18DACC452D5B38EE001A2435 /* VenueDetailViewModel.swift */,
+				18DACC472D5B3B0A001A2435 /* BarcodeScannerView.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -176,7 +182,9 @@
 				18DACC442D5B2113001A2435 /* LocationManager.swift in Sources */,
 				18DACC422D5B1DCD001A2435 /* VenueDetailView.swift in Sources */,
 				18DACC402D5B1C09001A2435 /* VenueListView.swift in Sources */,
+				18DACC482D5B3B0A001A2435 /* BarcodeScannerView.swift in Sources */,
 				18DACC2B2D5B18F6001A2435 /* VenueListApp.swift in Sources */,
+				18DACC462D5B38EE001A2435 /* VenueDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,11 +311,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = VenueList/VenueList.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VenueList/Preview Content\"";
+				DEVELOPMENT_TEAM = 2VQ6P5F96W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -325,8 +336,9 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.test.VenueList;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncs.Cast4.staging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -342,11 +354,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = VenueList/VenueList.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VenueList/Preview Content\"";
+				DEVELOPMENT_TEAM = 2VQ6P5F96W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -364,8 +379,9 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.test.VenueList;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncs.Cast4.staging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
