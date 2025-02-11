@@ -18,6 +18,7 @@
 		18DACC442D5B2113001A2435 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DACC432D5B2113001A2435 /* LocationManager.swift */; };
 		18DACC462D5B38EE001A2435 /* VenueDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DACC452D5B38EE001A2435 /* VenueDetailViewModel.swift */; };
 		18DACC482D5B3B0A001A2435 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DACC472D5B3B0A001A2435 /* BarcodeScannerView.swift */; };
+		18DACC4A2D5B3FB4001A2435 /* TicketDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DACC492D5B3FB4001A2435 /* TicketDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		18DACC432D5B2113001A2435 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		18DACC452D5B38EE001A2435 /* VenueDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailViewModel.swift; sourceTree = "<group>"; };
 		18DACC472D5B3B0A001A2435 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
+		18DACC492D5B3FB4001A2435 /* TicketDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				18DACC412D5B1DCD001A2435 /* VenueDetailView.swift */,
 				18DACC452D5B38EE001A2435 /* VenueDetailViewModel.swift */,
 				18DACC472D5B3B0A001A2435 /* BarcodeScannerView.swift */,
+				18DACC492D5B3FB4001A2435 /* TicketDetail.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				18DACC442D5B2113001A2435 /* LocationManager.swift in Sources */,
 				18DACC422D5B1DCD001A2435 /* VenueDetailView.swift in Sources */,
 				18DACC402D5B1C09001A2435 /* VenueListView.swift in Sources */,
+				18DACC4A2D5B3FB4001A2435 /* TicketDetail.swift in Sources */,
 				18DACC482D5B3B0A001A2435 /* BarcodeScannerView.swift in Sources */,
 				18DACC2B2D5B18F6001A2435 /* VenueListApp.swift in Sources */,
 				18DACC462D5B38EE001A2435 /* VenueDetailViewModel.swift in Sources */,
