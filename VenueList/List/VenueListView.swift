@@ -81,10 +81,8 @@ struct VenueListView: View {
         VStack(alignment: .leading) {
             Text(item.name)
                 .font(.title3)
-                .foregroundStyle(.black)
             Text(item.address)
                 .font(.subheadline)
-                .foregroundStyle(.gray)
         }
     }
 }
